@@ -1,4 +1,7 @@
 #pragma once
+#include "pch.h"
+#include "StackLinkedList.h"
+
 class Stack {
 	struct Node {
 		int key;

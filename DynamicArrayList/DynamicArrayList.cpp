@@ -1,11 +1,11 @@
 #include "pch.h"
-#include "ArrayList.h"
+#include "DynamicArrayList.h"
 
 using namespace std;
 
 List::List () {
 	currentSize = 0;
-}
+};
 
 void List::remove (int n) {
 	int tabIndex = n - 1;
@@ -18,14 +18,14 @@ void List::remove (int n) {
 void List::insert (int n, const int& p) {
 	int tabIndex = n - 1;
 
-	for ( int i = currentSize - 1; i >= tabIndex; i-- )
-		arr [i + 1] = arr [i];
+	for ( int i = currentSize; i >= tabIndex; i-- )
+		arr [i] = arr [i - 1];
 	arr [tabIndex] = p;
 	currentSize++;
 }
 
 void List::show () const {
-	for ( int i = 0; i < MaxSize; i++ )
+	for ( int i = 0; i < currentSize; i++ )
 		cout << " wyswietlam tablice: " << arr [i] << endl;
 }
 

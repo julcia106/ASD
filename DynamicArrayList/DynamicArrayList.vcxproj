@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{85017208-F82B-40CE-AAB8-4ABB760C4F08}</ProjectGuid>
+    <ProjectGuid>{03099C43-AF66-4DD2-AC53-67CCFCD1A12D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>ArrayList</RootNamespace>
+    <RootNamespace>DynamicArrayList</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,11 +151,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="ArrayList.h" />
+    <ClInclude Include="DynamicArrayList.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayList.cpp" />
+    <ClCompile Include="DynamicArrayList.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
