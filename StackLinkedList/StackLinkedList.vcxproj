@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{337CD4FE-15CB-43AF-9385-5A6177AF35C9}</ProjectGuid>
+    <ProjectGuid>{64256D5F-C6C6-4910-9A35-EA0A25076E85}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>StackArray</RootNamespace>
+    <RootNamespace>StackLinkedList</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -152,7 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
-    <ClInclude Include="StackArray.h" />
+    <ClInclude Include="StackLinkedList.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -162,7 +162,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="StackArray.cpp" />
+    <ClCompile Include="StackLinkedList.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
